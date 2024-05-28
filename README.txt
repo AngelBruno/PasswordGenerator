@@ -1,13 +1,13 @@
-# Generating the virtual environment 
-    python3.12 -m venv --without-pip <virtual_machine_folder_name>
+### PASSWORD GENERATOR MINI PROJECT WITH FLASK ###
 
-# Activating the virtual environment
-    .\<folder_name>\Scripts\Activate.ps1
+This is a simple project using HTML, JAVASCRIPT, and CSS to create a password generator webpage, and Python with Flask web framework. 
 
-# If appears an error of UnauthorizedAcces
-    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned (Power Shell as ADMIN)
+## Some importants steps to execute this project
+    # Generating the virtual environment 
+        python3.12 -m venv --without-pip <virtual_machine_folder_name>
 
-# Installing FLASK library 
-    pip install Flask
+    # Activating the virtual environment
+        .\<virtual_machine_folder_name>\Scripts\Activate.ps1
 
-# It's necessary to create a folder called 'static' and put the css and js in there so that they can be found
+        # If appears an error of UnauthorizedAcces
+            Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned (Power Shell as ADMIN)
